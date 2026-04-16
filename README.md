@@ -1,130 +1,179 @@
-# Deskgram 2 Telegram 自动化平台
+# Deskgram 2 Telegram и‡ЄеЉЁеЊ–е№іеЏ°
 
 ![Deskgram 2 Overview](assets/screenshots/hub__overview__zh.png)
 
-Deskgram 2 是一个围绕 Telegram 自动化工作流构建的平台，包含账号管理、私信群发、AI 模块、受众收集、批量订阅、代理基础设施和任务控制面板。
+Deskgram 2 жЇдёЂдёЄе›ґз»• Telegram и‡ЄеЉЁеЊ–е·ҐдЅњжµЃжћ„е»єзљ„е№іеЏ°пјЊеЊ…еђ«иґ¦еЏ·з®Ўзђ†гЂЃз§ЃдїЎзѕ¤еЏ‘гЂЃAI жЁЎеќ—гЂЃеЏ—дј—ж”¶й›†гЂЃж‰№й‡Џи®ўй…гЂЃд»Јзђ†еџєзЎЂи®ѕж–Ѕе’Њд»»еЉЎжЋ§е€¶йќўжќїгЂ‚
 
-[官网](https://deskgram2.com/) | [Telegram Bot](https://t.me/DG2welcomebot) | [Web Preview](https://deskgram2.com/web-preview) | [优势说明](https://deskgram2.com/advantages)
+[е®зЅ‘](https://deskgram2.com/) | [Telegram Bot](https://t.me/DG2welcomebot) | [Web Preview](https://deskgram2.com/web-preview) | [дјеЉїиЇґжЋ](https://deskgram2.com/advantages)
 
-## 平台概览
+## е№іеЏ°ж¦‚и§€
 
-| 模块 | 用途 |
+| жЁЎеќ— | з”ЁйЂ” |
 |---|---|
-| 账号面板 | 管理 Telegram 账号、分组、筛选和基础工作区 |
-| 任务面板 | 监控运行中的流程、状态和执行结果 |
-| 设置 | 配置系统参数、API Key、AI 提供商和通知 |
-| 私信群发 | 对准备好的受众执行私信触达流程 |
-| 神经评论 | 对 Telegram 新帖子执行 AI 评论和跟进 |
-| 受众收集 | 从群组、聊天或其他来源整理用户基础 |
-| 批量订阅 | 批量加入频道、群组和文件夹 |
+| иґ¦еЏ·йќўжќї | з®Ўзђ† Telegram иґ¦еЏ·гЂЃе€†з»„гЂЃз­›йЂ‰е’ЊеџєзЎЂе·ҐдЅњеЊє |
+| д»»еЉЎйќўжќї | з›‘жЋ§иїђиЎЊдё­зљ„жµЃзЁ‹гЂЃзЉ¶жЂЃе’Њж‰§иЎЊз»“жћњ |
+| и®ѕзЅ® | й…ЌзЅ®зі»з»џеЏ‚ж•°гЂЃAPI KeyгЂЃAI жЏђдѕ›е•†е’ЊйЂљзџҐ |
+| з§ЃдїЎзѕ¤еЏ‘ | еЇ№е‡†е¤‡еҐЅзљ„еЏ—дј—ж‰§иЎЊз§ЃдїЎи§¦иѕѕжµЃзЁ‹ |
+| зҐћз»ЏиЇ„и®є | еЇ№ Telegram ж–°её–е­ђж‰§иЎЊ AI иЇ„и®єе’Њи·џиї› |
+| еЏ—дј—ж”¶й›† | д»Ћзѕ¤з»„гЂЃиЃЉе¤©ж€–е…¶д»–жќҐжєђж•ґзђ†з”Ёж€·еџєзЎЂ |
+| ж‰№й‡Џи®ўй… | ж‰№й‡ЏеЉ е…Ґйў‘йЃ“гЂЃзѕ¤з»„е’Њж–‡д»¶е¤№ |
 
-## Deskgram 2 适合做什么
+## Deskgram 2 йЂ‚еђ€еЃљд»Ђд№€
 
-- 构建 Telegram 自动化工作流；
-- 管理多账号和代理基础设施；
-- 为私信、邀请、收集和 AI 场景提供统一界面；
-- 在一个工作区里集中处理任务、日志和状态。
+- жћ„е»є Telegram и‡ЄеЉЁеЊ–е·ҐдЅњжµЃпј›
+- з®Ўзђ†е¤љиґ¦еЏ·е’Њд»Јзђ†еџєзЎЂи®ѕж–Ѕпј›
+- дёєз§ЃдїЎгЂЃй‚ЂиЇ·гЂЃж”¶й›†е’Њ AI ењєж™ЇжЏђдѕ›з»џдёЂз•Њйќўпј›
+- ењЁдёЂдёЄе·ҐдЅњеЊєй‡Њй›†дё­е¤„зђ†д»»еЉЎгЂЃж—Ґеї—е’ЊзЉ¶жЂЃгЂ‚
 
-## 快速开始
+## еї«йЂџејЂе§‹
 
-1. 先完成设置、账号和代理的基础准备。
-2. 根据目标选择受众收集、私信群发、神经评论或批量订阅模块。
-3. 在任务面板中跟踪执行状态和结果。
-4. 通过相关模块之间的链接继续扩展工作流。
+1. е…€е®Њж€ђи®ѕзЅ®гЂЃиґ¦еЏ·е’Њд»Јзђ†зљ„еџєзЎЂе‡†е¤‡гЂ‚
+2. ж №жЌ®з›®ж ‡йЂ‰ж‹©еЏ—дј—ж”¶й›†гЂЃз§ЃдїЎзѕ¤еЏ‘гЂЃзҐћз»ЏиЇ„и®єж€–ж‰№й‡Џи®ўй…жЁЎеќ—гЂ‚
+3. ењЁд»»еЉЎйќўжќїдё­и·џиёЄж‰§иЎЊзЉ¶жЂЃе’Њз»“жћњгЂ‚
+4. йЂљиї‡з›ёе…іжЁЎеќ—д№‹й—ґзљ„й“ѕжЋҐз»§з»­ж‰©е±•е·ҐдЅњжµЃгЂ‚
 
-## 界面预览
+## з•Њйќўйў„и§€
 
-### 平台总览
+### е№іеЏ°жЂ»и§€
 
 ![Platform Overview](assets/screenshots/hub__overview__zh.png)
 
-### 账号面板
+### иґ¦еЏ·йќўжќї
 
 ![Accounts Panel](assets/screenshots/accounts-list__main__zh.png)
 
-### 任务面板
+### д»»еЉЎйќўжќї
 
 ![Tasks Panel](assets/screenshots/tasks-list__main__zh.png)
 
-### 设置
+### и®ѕзЅ®
 
 ![Settings Panel](assets/screenshots/settings__main__zh.png)
 
-## 推荐阅读路径
+## жЋЁиЌђй…иЇ»и·Їеѕ„
 
-| 目标 | 先看什么 |
+| з›®ж ‡ | е…€зњ‹д»Ђд№€ |
 |---|---|
-| 做 Telegram 私信触达 | 受众收集 -> 私信群发 |
-| 做帖子互动和 AI 评论 | 神经评论 |
-| 批量加入频道或群组 | 批量订阅 |
-| 搭建稳定基础设施 | 账号面板 -> 设置 |
+| еЃљ Telegram з§ЃдїЎи§¦иѕѕ | еЏ—дј—ж”¶й›† -> з§ЃдїЎзѕ¤еЏ‘ |
+| еЃљеё–е­ђдє’еЉЁе’Њ AI иЇ„и®є | зҐћз»ЏиЇ„и®є |
+| ж‰№й‡ЏеЉ е…Ґйў‘йЃ“ж€–зѕ¤з»„ | ж‰№й‡Џи®ўй… |
+| жђ­е»єзЁіе®љеџєзЎЂи®ѕж–Ѕ | иґ¦еЏ·йќўжќї -> и®ѕзЅ® |
 
-## 执行型仓库
+## ж‰§иЎЊећ‹д»“еє“
 
-- [神经评论](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh)
-- [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)
-- [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh)
-- [批量订阅](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)
+- [зҐћз»ЏиЇ„и®є](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh)
+- [з§ЃдїЎзѕ¤еЏ‘](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)
+- [еЏ—дј—ж”¶й›†](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh)
+- [ж‰№й‡Џи®ўй…](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)
 
-## 基础设施与控制仓库
+## discovery guides
 
-- [邀请模块](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh)
-- [代理管理](https://github.com/Deskgram-2/telegram-proxy-manager-deskgram-zh)
-- [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh)
-- [任务管理器](https://github.com/Deskgram-2/telegram-task-manager-deskgram-zh)
-- [设置](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh)
+- [Channel and Group Search](https://github.com/Deskgram-2/telegram-channel-search-deskgram-zh)
+- [Similar Channels](https://github.com/Deskgram-2/telegram-similar-channels-deskgram-zh)
+- [Comment Audience Parser](https://github.com/Deskgram-2/telegram-comment-audience-parser-deskgram-zh)
+- [Active Chat Users Parser](https://github.com/Deskgram-2/telegram-active-chat-users-parser-deskgram-zh)
 
-## 已发布中文仓库之间怎么衔接
+## еџєзЎЂи®ѕж–ЅдёЋжЋ§е€¶д»“еє“
 
-- [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) -> [代理管理](https://github.com/Deskgram-2/telegram-proxy-manager-deskgram-zh) -> [设置](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) 构成基础设施层。
-- [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh) 是当前中文波次里最直接的触达链路。
-- [批量订阅](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh) -> [邀请模块](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh) 适合增长和环境准备。
-- [设置](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) -> [神经评论](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh) -> [任务管理器](https://github.com/Deskgram-2/telegram-task-manager-deskgram-zh) 是当前中文 AI/执行/控制链。
+- [й‚ЂиЇ·жЁЎеќ—](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh)
+- [д»Јзђ†з®Ўзђ†](https://github.com/Deskgram-2/telegram-proxy-manager-deskgram-zh)
+- [иґ¦еЏ·йќўжќї](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh)
+- [д»»еЉЎз®Ўзђ†е™Ё](https://github.com/Deskgram-2/telegram-task-manager-deskgram-zh)
+- [и®ѕзЅ®](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh)
 
-## 推荐工作流链路
+## е·ІеЏ‘еёѓдё­ж–‡д»“еє“д№‹й—ґжЂЋд№€иЎ”жЋҐ
 
-- [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) -> [代理管理](https://github.com/Deskgram-2/telegram-proxy-manager-deskgram-zh) -> [设置](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) -> [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)
-- [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) -> [批量订阅](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh) -> [邀请模块](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh)
-- [设置](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) -> [神经评论](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh) -> [任务管理器](https://github.com/Deskgram-2/telegram-task-manager-deskgram-zh)
-- [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [邀请模块](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh) -> [任务管理器](https://github.com/Deskgram-2/telegram-task-manager-deskgram-zh)
-- [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) -> [批量订阅](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh) -> [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)
+- [иґ¦еЏ·йќўжќї](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) -> [д»Јзђ†з®Ўзђ†](https://github.com/Deskgram-2/telegram-proxy-manager-deskgram-zh) -> [и®ѕзЅ®](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) жћ„ж€ђеџєзЎЂи®ѕж–Ѕе±‚гЂ‚
+- [еЏ—дј—ж”¶й›†](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [з§ЃдїЎзѕ¤еЏ‘](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh) жЇеЅ“е‰Ќдё­ж–‡жіўж¬Ўй‡ЊжњЂз›ґжЋҐзљ„и§¦иѕѕй“ѕи·ЇгЂ‚
+- [ж‰№й‡Џи®ўй…](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)
 
-## 想最快拿到第一个结果，该怎么选
+## discovery guides
 
-| 如果你最想先拿到的结果是 | 更推荐的路径 |
+- [Channel and Group Search](https://github.com/Deskgram-2/telegram-channel-search-deskgram-zh)
+- [Similar Channels](https://github.com/Deskgram-2/telegram-similar-channels-deskgram-zh)
+- [Comment Audience Parser](https://github.com/Deskgram-2/telegram-comment-audience-parser-deskgram-zh)
+- [Active Chat Users Parser](https://github.com/Deskgram-2/telegram-active-chat-users-parser-deskgram-zh) -> [й‚ЂиЇ·жЁЎеќ—](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh) йЂ‚еђ€еўћй•їе’ЊзЋЇеўѓе‡†е¤‡гЂ‚
+- [и®ѕзЅ®](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) -> [зҐћз»ЏиЇ„и®є](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh) -> [д»»еЉЎз®Ўзђ†е™Ё](https://github.com/Deskgram-2/telegram-task-manager-deskgram-zh) жЇеЅ“е‰Ќдё­ж–‡ AI/ж‰§иЎЊ/жЋ§е€¶й“ѕгЂ‚
+
+## жЋЁиЌђе·ҐдЅњжµЃй“ѕи·Ї
+
+- [иґ¦еЏ·йќўжќї](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) -> [д»Јзђ†з®Ўзђ†](https://github.com/Deskgram-2/telegram-proxy-manager-deskgram-zh) -> [и®ѕзЅ®](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) -> [еЏ—дј—ж”¶й›†](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [з§ЃдїЎзѕ¤еЏ‘](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)
+- [иґ¦еЏ·йќўжќї](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) -> [ж‰№й‡Џи®ўй…](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)
+
+## discovery guides
+
+- [Channel and Group Search](https://github.com/Deskgram-2/telegram-channel-search-deskgram-zh)
+- [Similar Channels](https://github.com/Deskgram-2/telegram-similar-channels-deskgram-zh)
+- [Comment Audience Parser](https://github.com/Deskgram-2/telegram-comment-audience-parser-deskgram-zh)
+- [Active Chat Users Parser](https://github.com/Deskgram-2/telegram-active-chat-users-parser-deskgram-zh) -> [й‚ЂиЇ·жЁЎеќ—](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh)
+- [и®ѕзЅ®](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) -> [зҐћз»ЏиЇ„и®є](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh) -> [д»»еЉЎз®Ўзђ†е™Ё](https://github.com/Deskgram-2/telegram-task-manager-deskgram-zh)
+- [еЏ—дј—ж”¶й›†](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [й‚ЂиЇ·жЁЎеќ—](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh) -> [д»»еЉЎз®Ўзђ†е™Ё](https://github.com/Deskgram-2/telegram-task-manager-deskgram-zh)
+- [иґ¦еЏ·йќўжќї](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) -> [ж‰№й‡Џи®ўй…](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)
+
+## discovery guides
+
+- [Channel and Group Search](https://github.com/Deskgram-2/telegram-channel-search-deskgram-zh)
+- [Similar Channels](https://github.com/Deskgram-2/telegram-similar-channels-deskgram-zh)
+- [Comment Audience Parser](https://github.com/Deskgram-2/telegram-comment-audience-parser-deskgram-zh)
+- [Active Chat Users Parser](https://github.com/Deskgram-2/telegram-active-chat-users-parser-deskgram-zh) -> [еЏ—дј—ж”¶й›†](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [з§ЃдїЎзѕ¤еЏ‘](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)
+
+## жѓіжњЂеї«ж‹їе€°з¬¬дёЂдёЄз»“жћњпјЊиЇҐжЂЋд№€йЂ‰
+
+| е¦‚жћњдЅ жњЂжѓіе…€ж‹їе€°зљ„з»“жћњжЇ | ж›ґжЋЁиЌђзљ„и·Їеѕ„ |
 |---|---|
-| 可用受众基础和私聊触达 | [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh) |
-| 社区增长和环境准备 | [批量订阅](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh) -> [邀请模块](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh) |
-| AI 驱动的帖子互动 | [设置](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) -> [神经评论](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh) |
-| 在任何执行前先把基础设施搭好 | [账号面板](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) -> [代理管理](https://github.com/Deskgram-2/telegram-proxy-manager-deskgram-zh) -> [设置](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) |
+| еЏЇз”ЁеЏ—дј—еџєзЎЂе’Њз§ЃиЃЉи§¦иѕѕ | [еЏ—дј—ж”¶й›†](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [з§ЃдїЎзѕ¤еЏ‘](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh) |
+| з¤ѕеЊєеўћй•їе’ЊзЋЇеўѓе‡†е¤‡ | [ж‰№й‡Џи®ўй…](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)
 
-## 相关仓库
+## discovery guides
 
-- [神经评论](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh)
-- [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)
-- [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh)
-- [批量订阅](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)
+- [Channel and Group Search](https://github.com/Deskgram-2/telegram-channel-search-deskgram-zh)
+- [Similar Channels](https://github.com/Deskgram-2/telegram-similar-channels-deskgram-zh)
+- [Comment Audience Parser](https://github.com/Deskgram-2/telegram-comment-audience-parser-deskgram-zh)
+- [Active Chat Users Parser](https://github.com/Deskgram-2/telegram-active-chat-users-parser-deskgram-zh) -> [й‚ЂиЇ·жЁЎеќ—](https://github.com/Deskgram-2/telegram-invite-tool-deskgram-zh) |
+| AI й©±еЉЁзљ„её–е­ђдє’еЉЁ | [и®ѕзЅ®](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) -> [зҐћз»ЏиЇ„и®є](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh) |
+| ењЁд»»дЅ•ж‰§иЎЊе‰Ќе…€жЉЉеџєзЎЂи®ѕж–Ѕжђ­еҐЅ | [иґ¦еЏ·йќўжќї](https://github.com/Deskgram-2/telegram-account-manager-deskgram-zh) -> [д»Јзђ†з®Ўзђ†](https://github.com/Deskgram-2/telegram-proxy-manager-deskgram-zh) -> [и®ѕзЅ®](https://github.com/Deskgram-2/telegram-automation-settings-deskgram-zh) |
+
+## з›ёе…ід»“еє“
+
+- [зҐћз»ЏиЇ„и®є](https://github.com/Deskgram-2/telegram-neuro-commenting-deskgram-zh)
+- [з§ЃдїЎзѕ¤еЏ‘](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)
+- [еЏ—дј—ж”¶й›†](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh)
+- [ж‰№й‡Џи®ўй…](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)
+
+## discovery guides
+
+- [Channel and Group Search](https://github.com/Deskgram-2/telegram-channel-search-deskgram-zh)
+- [Similar Channels](https://github.com/Deskgram-2/telegram-similar-channels-deskgram-zh)
+- [Comment Audience Parser](https://github.com/Deskgram-2/telegram-comment-audience-parser-deskgram-zh)
+- [Active Chat Users Parser](https://github.com/Deskgram-2/telegram-active-chat-users-parser-deskgram-zh)
 
 ## FAQ
 
-### Deskgram 2 更像单个工具还是完整平台？
+### Deskgram 2 ж›ґеѓЏеЌ•дёЄе·Ґе…·иїжЇе®Њж•ґе№іеЏ°пјџ
 
-更接近完整平台，因为它把账号、基础设施、执行模块和任务控制放在同一个工作区里。
+ж›ґжЋҐиї‘е®Њж•ґе№іеЏ°пјЊе› дёєе®ѓжЉЉиґ¦еЏ·гЂЃеџєзЎЂи®ѕж–ЅгЂЃж‰§иЎЊжЁЎеќ—е’Њд»»еЉЎжЋ§е€¶ж”ѕењЁеђЊдёЂдёЄе·ҐдЅњеЊєй‡ЊгЂ‚
 
-### 从哪个模块开始最合适？
+### д»Ће“ЄдёЄжЁЎеќ—ејЂе§‹жњЂеђ€йЂ‚пјџ
 
-通常先准备设置、账号和代理，然后再进入受众收集、私信群发或 AI 模块。
+йЂљеёёе…€е‡†е¤‡и®ѕзЅ®гЂЃиґ¦еЏ·е’Њд»Јзђ†пјЊз„¶еђЋе†Ќиї›е…ҐеЏ—дј—ж”¶й›†гЂЃз§ЃдїЎзѕ¤еЏ‘ж€– AI жЁЎеќ—гЂ‚
 
-## 入门 FAQ
+## е…Ґй—Ё FAQ
 
-### 如果我还没有用户基础，应该先从哪里开始？
+### е¦‚жћњж€‘иїжІЎжњ‰з”Ёж€·еџєзЎЂпјЊеє”иЇҐе…€д»Ће“Єй‡ЊејЂе§‹пјџ
 
-通常先把账号和基础设施准备好，然后在 [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) 和 [批量订阅](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh) 之间做选择，看你是先需要用户基础，还是先需要环境层。
+йЂљеёёе…€жЉЉиґ¦еЏ·е’ЊеџєзЎЂи®ѕж–Ѕе‡†е¤‡еҐЅпјЊз„¶еђЋењЁ [еЏ—дј—ж”¶й›†](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) е’Њ [ж‰№й‡Џи®ўй…](https://github.com/Deskgram-2/telegram-join-groups-deskgram-zh)
 
-### 哪条路线通常最容易最快看到结果？
+## discovery guides
 
-最容易尽快看到结果的路线通常是 [受众收集](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [私信群发](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)，因为它能最快把准备好的基础变成可衡量的触达流程。
+- [Channel and Group Search](https://github.com/Deskgram-2/telegram-channel-search-deskgram-zh)
+- [Similar Channels](https://github.com/Deskgram-2/telegram-similar-channels-deskgram-zh)
+- [Comment Audience Parser](https://github.com/Deskgram-2/telegram-comment-audience-parser-deskgram-zh)
+- [Active Chat Users Parser](https://github.com/Deskgram-2/telegram-active-chat-users-parser-deskgram-zh) д№‹й—ґеЃљйЂ‰ж‹©пјЊзњ‹дЅ жЇе…€йњЂи¦Ѓз”Ёж€·еџєзЎЂпјЊиїжЇе…€йњЂи¦ЃзЋЇеўѓе±‚гЂ‚
 
-### 如果我暂时不用 AI，Deskgram 2 还有价值吗？
+### е“ЄжќЎи·ЇзєїйЂљеёёжњЂе®№ж“жњЂеї«зњ‹е€°з»“жћњпјџ
 
-有。AI 只是平台的一部分。基础设施、受众收集、邀请、批量订阅和普通私信流程本身就已经很有价值。
+жњЂе®№ж“е°Ѕеї«зњ‹е€°з»“жћњзљ„и·ЇзєїйЂљеёёжЇ [еЏ—дј—ж”¶й›†](https://github.com/Deskgram-2/telegram-audience-parser-deskgram-zh) -> [з§ЃдїЎзѕ¤еЏ‘](https://github.com/Deskgram-2/telegram-direct-messaging-deskgram-zh)пјЊе› дёєе®ѓиѓЅжњЂеї«жЉЉе‡†е¤‡еҐЅзљ„еџєзЎЂеЏж€ђеЏЇиЎЎй‡Џзљ„и§¦иѕѕжµЃзЁ‹гЂ‚
+
+### е¦‚жћњж€‘жљ‚ж—¶дёЌз”Ё AIпјЊDeskgram 2 иїжњ‰д»·еЂјеђ—пјџ
+
+жњ‰гЂ‚AI еЏЄжЇе№іеЏ°зљ„дёЂйѓЁе€†гЂ‚еџєзЎЂи®ѕж–ЅгЂЃеЏ—дј—ж”¶й›†гЂЃй‚ЂиЇ·гЂЃж‰№й‡Џи®ўй…е’Њж™®йЂљз§ЃдїЎжµЃзЁ‹жњ¬иє«е°±е·Із»Џеѕ€жњ‰д»·еЂјгЂ‚
