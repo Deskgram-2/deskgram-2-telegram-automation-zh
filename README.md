@@ -4,7 +4,14 @@
 
 Deskgram 2 Р¶ВР‡РґС‘Р‚РґС‘Р„РµвЂєТ‘Р·В»вЂў Telegram РёвЂЎР„РµР‰РЃРµРЉвЂ“РµВ·ТђРґР…СљР¶ВµРѓР¶С›вЂћРµВ»С”Р·С™вЂћРµв„–С–РµРЏВ°РїСРЉРµРЉвЂ¦РµС’В«РёТ‘В¦РµРЏВ·Р·В®РЋР·С’вЂ РіР‚РѓР·В§РѓРґС—РЋР·С•В¤РµРЏвЂРіР‚РѓAI Р¶РЃРЋРµСњвЂ”РіР‚РѓРµРЏвЂ”РґСвЂ”Р¶вЂќВ¶Р№вЂєвЂ РіР‚РѓР¶вЂ°в„–Р№вЂЎРЏРёВ®СћР№ВвЂ¦РіР‚РѓРґВ»Р€Р·С’вЂ РµСџС”Р·РЋР‚РёВ®С•Р¶вЂ“Р…РµвЂ™РЉРґВ»В»РµР‰РЋР¶Р‹В§Рµв‚¬В¶Р№СњСћР¶СњС—РіР‚вЂљ
 
-[РµВ®ВР·Р…вЂ](https://deskgram2.com/) | [Telegram Bot](https://t.me/DG2welcomebot) | [Web Preview](https://deskgram2.com/web-preview) | [РґСВРµР‰С—РёР‡Т‘Р¶ВР‹](https://deskgram2.com/advantages)
+[РµВ®ВР·Р…вЂ](https://deskgram2.com/) | [Telegram Bot](https://t.me/DG2welcomebot) | [Web Preview](https://deskgram2.com/web-preview) | [РґСВРµР‰С—РёР‡Т‘Р¶ВР‹](https://deskgram2.com/advantages)
+## 交互式 Web Preview
+
+[![Interactive Demo](https://img.shields.io/badge/DEMO-Try_in_Browser-brightgreen?style=for-the-badge&logo=google-chrome)](https://deskgram2.com/web-preview?path=%2Fapp-demo%2Fhome)
+
+在浏览器中体验这个模块: [打开 Web Preview](https://deskgram2.com/web-preview?path=%2Fapp-demo%2Fhome)
+
+
 
 ## Рµв„–С–РµРЏВ°Р¶В¦вЂљРёВ§в‚¬
 
